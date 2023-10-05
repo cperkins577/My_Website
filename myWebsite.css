@@ -1,5 +1,37 @@
 body {
     background-color: whitesmoke;
+    background-image: url(wall.jpg);
+    background-size: 100%;
+    margin: 0%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: slategray;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 75%;
+    padding: 20px 10px;
+}
+
+li:first-child {
+    margin-top: 20%;
+}
+
+li:hover {
+    background-color: #f2eee3;
 }
 
 #name-card {
